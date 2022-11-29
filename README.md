@@ -15,8 +15,7 @@
      There’s a built-in method that does a lot of this work for you, but here you’re not allowed to use it.
      </p>
     </li>
-    
-    <p> &nbsp; </p>
+
     <li>
      <h3>greetAliens()</h3>
      <p>
@@ -26,8 +25,7 @@
    <em>“Oh powerful <code>[stringElement]</code>, we humans offer our unconditional surrender!”</em>
      </p>
     </li>
-    
-    <p> &nbsp; </p>
+
     <li>
      <h3></h3>
      <p>
