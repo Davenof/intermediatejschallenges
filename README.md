@@ -15,15 +15,14 @@
      There’s a built-in method that does a lot of this work for you, but here you’re not allowed to use it.
      </p>
     </li>
-
+ 
+    <p> &nbsp; </p>
     <li>
      <h3>greetAliens()</h3>
-     <p>
      Write a function, <code>greetAliens()</code>, that takes in an array of strings and uses a <code>for</code> loop to print a greeting with each string in the array. You are not allowed to use <code>.forEach()</code>.
     <br><br>
    The greeting should take the following format: <br><br>
    <em>“Oh powerful <code>[stringElement]</code>, we humans offer our unconditional surrender!”</em>
-     </p>
     </li>
 
     <li>
