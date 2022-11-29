@@ -14,6 +14,7 @@
          <br><br>
          There’s a built-in method that does a lot of this work for you, but here you’re not allowed to use it.
        </p>
+     <p> &nbsp; </p>
     </li>
     <li>
        <h3>greetAliens()</h3>
@@ -21,6 +22,7 @@
        <br><br>
          The greeting should take the following format: <br><br>
          <em>“Oh powerful <code>[stringElement]</code>, we humans offer our unconditional surrender!”</em>
+     <p> &nbsp; </p>
     </li>
 <li>
        <h3>reverseArray()</h3>
@@ -29,6 +31,7 @@
          <br><br>
          There’s a built-in method that does a lot of this work for you, but here you’re not allowed to use it.
        </p>
+ <p> &nbsp; </p>
     </li>
     <li>
        <h3>greetAliens()</h3>
@@ -36,6 +39,7 @@
        <br><br>
          The greeting should take the following format: <br><br>
          <em>“Oh powerful <code>[stringElement]</code>, we humans offer our unconditional surrender!”</em>
+     <p> &nbsp; </p>
     </li>
     
     <p> &nbsp; </p>
