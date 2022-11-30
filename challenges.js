@@ -25,6 +25,11 @@ const greetAliens = (aliens) => {
 };
 
 greetAliens(aliens);
+// Should print:
+// Oh powerful Blorgous, we humans offer our unconditional surrender! 
+// Oh powerful Glamyx, we humans offer our unconditional surrender! 
+// Oh powerful Wegord, we humans offer our unconditional surrender! 
+// Oh powerful SpaceKing, we humans offer our unconditional surrender! 
 
 //3. convertToBaby()
 const animals = ['panda', 'turtle', 'giraffe', 'hippo', 'sloth', 'human'];
@@ -38,6 +43,7 @@ const convertToBaby = (animals) => {
 };
 
 console.log(convertToBaby(animals));
+// Should return ['baby panda', 'baby turtle', 'baby giraffe', 'baby hippo', 'baby sloth', 'baby human'];
 
 //4. smallestPowerOfTwo()
 const numbers = [5, 3, 9, 30];
