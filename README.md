@@ -38,8 +38,6 @@
      [ 8, 4, 16, 32 ]
      <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
     <li>
        <h3>declineEverything() and acceptEverything()</h3>
        <p>
