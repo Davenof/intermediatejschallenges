@@ -156,27 +156,30 @@ You can test your function by passing in the <code>randomStuff</code> array or b
         <br><br>
       Examples:
       <br><br>
-      <code>
+      <ul>
          subLength('Saturday', 'a'); // returns 6 <br>
          subLength('summer', 'm'); // returns 2 <br>
          subLength('digitize', 'i'); // returns 0 <br>
          subLength('cheesecake', 'k'); // returns 0
-      </code>
+      </ul>
        </p>
        <p> &nbsp; </p>
    </li>
      <li>
-       <h3>factorial()</h3>
+       <h3>groceries()</h3>
        <p>
-        Write a function <code>factorial()</code> that takes a number as an argument and returns the factorial of the number.
-        <br><br>
-       Example:
-       <br><br>
-       factorial(6); <br>
-       <code>returns `720` because 6 * 5 * 4 * 3 * 2 * 1 = 720</code>
-       <br><br>
-       Assume only positive numbers will be given as an argument for the factorial() function.
+        Write a function <code>groceries()</code> that takes an array of object literals of grocery items. The function should return a string with each item separated by a comma except the last two items should be separated by the word <code>'and'</code>. Make sure spaces (<code>' '</code>) are inserted where they are appropriate.
+   <br><br>
+Examples:
+<ul>
+groceries( [{item: 'Carrots'}, {item: 'Hummus'}, {item: 'Pesto'}, {item: 'Rigatoni'}] ); <br>
+ <em>// returns 'Carrots, Hummus, Pesto and Rigatoni'</em>
+ <br><br>
+groceries( [{item: 'Bread'}, {item: 'Butter'}] ); <br>
+ <em>// returns 'Bread and Butter'</em>
+ <br><br>
+groceries( [{item: 'Cheese Balls'}] ); <br>
+ <em>// returns 'Cheese Balls'</em>
        </p>
-       <p> &nbsp; </p>
    </li>
   </ol>
