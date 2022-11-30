@@ -79,6 +79,7 @@ You can test your function by passing in the <code>greetings</code> array or by 
 You can test your function by passing in the <code>years</code> array or by making your own array of years!
      <p> &nbsp; </p>
     </li>
+   <li>
     <h3>justCoolStuff()</h3>
        <p>
         Write a function <code>justCoolStuff()</code> that takes in two arrays of strings, and, using the built-in <code>.filter()</code> method, returns an array with the items that are present in both arrays.
@@ -96,12 +97,18 @@ You can test your function by passing in the <code>myStuff</code> and <code>cool
 and returns a boolean value based on whether or not every item in the array has entirely plant-based origins.
      <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
-    <li>
-     <h3></h3>
-     <p>
-     </p>
+   <li>
+       <h3>sortSpeciesByTeeth()</h3>
+    Write a function <code>sortSpeciesByTeeth()</code> that takes in an array of species objects in the format:
+<br><br>
+ {speciesName: 'shark', numTeeth: 50 }
+ <br><br>
+and sorts the array in ascending order based on the average number of teeth that species possesses (<code>numTeeth</code>) .
+<br><br>
+You’ll need to access each object’s <code>.numTeeth</code> property. Feel free to either write a named comparison function, or use an anonymous function for your argument to <code>.sort()</code>.
+<br><br>
+You can test your function by passing in the <code>speciesArray</code> array or by making your own!
+     <p> &nbsp; </p>
     </li>
     
     <p> &nbsp; </p>
