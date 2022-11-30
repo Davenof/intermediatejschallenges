@@ -157,10 +157,10 @@ You can test your function by passing in the <code>randomStuff</code> array or b
       Examples:
       <br><br>
       <ul>
-         subLength('Saturday', 'a'); // returns 6 <br>
-         subLength('summer', 'm'); // returns 2 <br>
-         subLength('digitize', 'i'); // returns 0 <br>
-         subLength('cheesecake', 'k'); // returns 0
+         subLength('Saturday', 'a'); &nbsp;&nbsp;&nbsp;// returns 6 <br>
+         subLength('summer', 'm'); &nbsp;&nbsp;&nbsp;// returns 2 <br>
+         subLength('digitize', 'i'); &nbsp;&nbsp;&nbsp;// returns 0 <br>
+         subLength('cheesecake', 'k'); &nbsp;&nbsp;&nbsp;// returns 0
       </ul>
        </p>
        <p> &nbsp; </p>
