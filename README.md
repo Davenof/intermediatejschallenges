@@ -41,30 +41,45 @@
     
     <p> &nbsp; </p>
     <li>
-     <h3></h3>
-     <p>
-     </p>
+       <h3>declineEverything() and acceptEverything()</h3>
+       <p>
+         Write a function <code>declineEverything()</code> that takes in an array of strings and, using <code>.forEach()</code>, loops through each element in the array and calls <code>politelyDecline()</code> with each of them.
+<br><br>
+The <code>.forEach()</code> function should apply <code>politelyDecline()</code> directly; it should NOT merely receive an argument function that uses <code>politelyDecline()</code>.
+<br><br>
+You can test your function by passing in the <code>veggies</code> array or by making your own array!
+  <br><br>
+        Write another function <code>acceptEverything()</code> that takes in an array of strings and loops through each element in the array and grudgingly accepts each of them, by logging to the console in the following format: <br><br>
+        <em>'Ok, I guess I will eat some [element].'</em>
+<br><br>
+You can use any technique you want to accomplish this task. You can test your function when you’re ready by passing in the <code>veggies</code> array or by making your own array!
+       </p>
+     <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
     <li>
-     <h3></h3>
-     <p>
-     </p>
+       <h3>squareNums()</h3>
+         Write a function, <code>squareNums()</code>, that takes in an array of numbers and, using <code>.map()</code>, returns an array with the square of each of the elements of that array.
+<br><br>
+You can test your function by passing in the <code>numbers</code> array or by making your own array!
+     <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
-    <li>
-     <h3></h3>
-     <p>
-     </p>
+<li>
+       <h3>shoutGreetings()</h3>
+       <p>
+        Write a function <code>shoutGreetings()</code> that takes in an array of strings and returns a new array. This new array should contain all the strings from the argument array but with capitalized letters and an exclamation point appended to the end: <code>'heya'</code> will become <code>'HEYA!'</code>.
+<br><br>
+You can use any technique you want to accomplish this task.
+<br><br>
+You can test your function by passing in the <code>greetings</code> array or by making your own array!
+       </p>
+ <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
     <li>
-     <h3></h3>
-     <p>
-     </p>
+       <h3>sortYears()</h3>
+         Write a function <code>sortYears()</code> that takes in an array of years, and, using the built-in <code>.sort()</code> method, returns that array with the years sorted in descending order.
+<br><br>
+You can test your function by passing in the <code>years</code> array or by making your own array of years!
+     <p> &nbsp; </p>
     </li>
     
     <p> &nbsp; </p>
