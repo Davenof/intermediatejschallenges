@@ -212,4 +212,61 @@ const dogFactory = (name, breed, weight) => {
         }
     }
 };
+
+//14. factorial()
+const factorial = (number) => {
+    if (number === 0 || number === 1) {
+      return 1;
+    } else if (number < 0) {
+      return 'Please enter a number from 0 and above';
+    } else if (number !== parseInt(number)) {
+      return 'Please enter a whole number';
+    } else {
+      return number * factorial(number-1);
+    }
+};
   
+console.log(factorial(6));
+
+//15. subLength()
+const subLength = (word, letter) => {
+    let count = 0;
+    let start;
+    let end;
+    for (let i = 0; i < word.length; i++) {
+        if (word[i] === letter) {
+            count++;
+            if (count > 2) {
+            return 0;
+            }
+            if (start === undefined) {
+            start = i;
+            } else {
+            end = i + 1;
+            }
+        }
+    }
+    return count < 2 ? 0 : end - start;
+};
+
+console.log(subLength('saturday', 'a'));
+
+//16. groceries()
+const groceries = groceryItems => {
+    let callBackFunc = groceryItems.map(groceryItem => groceryItem.item)
+    if (callBackFunc.length === 1) {
+        return callBackFunc[0];
+    }
+    let comma = callBackFunc.join(', ');
+    let insertComma = comma.lastIndexOf(',');
+    return comma.slice(0, insertComma) + ' and' + comma.slice(insertComma + 1);
+};
+  
+console.log(groceries([{item: 'Carrots'}, {item: 'Hummus'}, {item: 'Pesto'}, {item: 'Rigatoni'}]));
+// returns 'Carrots, Hummus, Pesto and Rigatoni'
+   
+console.log(groceries([{item: 'Bread'}, {item: 'Butter'}]));
+// returns 'Bread and Butter'
+   
+console.log(groceries([{item: 'Cheese Balls'}]));
+// returns 'Cheese Balls'
