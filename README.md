@@ -110,33 +110,27 @@ You’ll need to access each object’s <code>.numTeeth</code> property. Feel fr
 You can test your function by passing in the <code>speciesArray</code> array or by making your own!
      <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
-    <li>
-     <h3></h3>
-     <p>
-     </p>
+ <li>
+       <h3>findMyKeys()</h3>
+       <p>
+        Write a function, <code>findMyKeys()</code>, that takes in an array of strings which may or may not contain <code>'keys'</code>. If the keys are in the array, your function should return the index at which they can be found. If they’re not in the array, your function should return <code>-1</code>.
+<br><br>
+You can use any technique you want to accomplish this task.
+<br><br>
+You can test your function by passing in the <code>randomStuff</code> array or by making your own array!
+       </p>
+ <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
-    <li>
-     <h3></h3>
-     <p>
-     </p>
-     
-     <p> &nbsp; </p>
-    <li>
-     <h3></h3>
-     <p>
-     </p>
-    </li>
-    </li>
-    
-    <p> &nbsp; </p>
-    <li>
-     <h3></h3>
-     <p>
-     </p>
-    </li>
-    
+   <li>
+       <h3>dogFactory()</h3>
+       <p>
+        Write a function, <code>dogFactory()</code>. It should:
+         <ul>
+            <li>have 3 parameters: <code>name</code>, <code>breed</code>, and <code>weight</code> (in that order)</li>
+            <li>expect <code>name</code> and <code>breed</code> to be strings</li>
+            <li>expect <code>weight</code> to be a number</li>
+            <li>return an object</li>
+            <li>have each of those parameters as keys on the returned object returned with the values of the arguments that were passed in</li>
+         </ul>
+       </p>
   </ol>
