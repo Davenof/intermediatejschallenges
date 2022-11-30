@@ -79,19 +79,22 @@ You can test your function by passing in the <code>greetings</code> array or by 
 You can test your function by passing in the <code>years</code> array or by making your own array of years!
      <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
-    <li>
-     <h3></h3>
-     <p>
-     </p>
+    <h3>justCoolStuff()</h3>
+       <p>
+        Write a function <code>justCoolStuff()</code> that takes in two arrays of strings, and, using the built-in <code>.filter()</code> method, returns an array with the items that are present in both arrays.
+<br><br>
+You can test your function by passing in the <code>myStuff</code> and <code>coolStuff</code> arrays or by making arrays of your own!
+       </p>
+ <p> &nbsp; </p>
     </li>
-    
-    <p> &nbsp; </p>
     <li>
-     <h3></h3>
-     <p>
-     </p>
+       <h3>isTheDinnerVegan()</h3>
+         Write a function <code>isTheDinnerVegan()</code> that takes in an array of food objects in the format:
+<br><br>
+ {name: 'cabbage', source: 'plant' }
+ <br><br>
+and returns a boolean value based on whether or not every item in the array has entirely plant-based origins.
+     <p> &nbsp; </p>
     </li>
     
     <p> &nbsp; </p>
